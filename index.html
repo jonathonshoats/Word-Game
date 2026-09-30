@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WordQuest</title>
+    style.css
+</head>
+<body>
 
+    <div class="container">
+        <h1>🎯 WordQuest</h1>
+        <p>Choose a category and difficulty.</p>
+
+        <h2>Category</h2>
+
+        <div class="options">
+            <button onclick="selectCategory('games')">🎮 Games</button>
+            <button onclick="selectCategory('animals')">🐶 Animals</button>
+            <button onclick="selectCategory('geography')">🌎 Geography</button>
+        </div>
+
+        <h2>Difficulty</h2>
+
+        <div class="options">
+            <button onclick="selectDifficulty('easy')">⭐ Easy</button>
+            <button onclick="selectDifficulty('medium')">⭐⭐ Medium</button>
+            <button onclick="selectDifficulty('hard')">⭐⭐⭐ Hard</button>
+        </div>
+
+        <p id="selection"></p>
+
+        <button class="start-btn" onclick="startGame()">
+            Start Game
+        </button>
+    </div>
+
+    script.jsscript>
+
+</body>
+</html>
